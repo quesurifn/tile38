@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tidwall/tile38/pkg/collection"
-	"github.com/tidwall/tile38/pkg/core"
-	"github.com/tidwall/tile38/pkg/geojson"
-	"github.com/tidwall/tile38/pkg/log"
+	"github.com/quesurifn/tile38/pkg/collection"
+	"github.com/quesurifn/tile38/pkg/core"
+	"github.com/quesurifn/tile38/pkg/geojson"
+	"github.com/quesurifn/tile38/pkg/log"
 )
 
 const maxkeys = 8

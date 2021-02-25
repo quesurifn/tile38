@@ -14,8 +14,8 @@ import (
 	"github.com/tidwall/buntdb"
 	"github.com/tidwall/redcon"
 	"github.com/tidwall/resp"
-	"github.com/tidwall/tile38/pkg/log"
-	"github.com/tidwall/tile38/pkg/server"
+	"github.com/quesurifn/tile38/pkg/log"
+	"github.com/quesurifn/tile38/pkg/server"
 )
 
 // AsyncHooks indicates that the hooks should happen in the background.

@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/quesurifn/tile38/pkg/core"
 	"github.com/tidwall/redbench"
-	"github.com/tidwall/tile38/pkg/core"
 )
 
 var (

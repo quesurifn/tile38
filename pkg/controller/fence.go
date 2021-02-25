@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/tidwall/gjson"
-	"github.com/tidwall/tile38/pkg/geojson"
-	"github.com/tidwall/tile38/pkg/glob"
-	"github.com/tidwall/tile38/pkg/server"
+	"github.com/quesurifn/tile38/pkg/geojson"
+	"github.com/quesurifn/tile38/pkg/glob"
+	"github.com/quesurifn/tile38/pkg/server"
 )
 
 // FenceMatch executes a fence match returns back json messages for fence detection.

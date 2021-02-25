@@ -1,7 +1,7 @@
 package geojson
 
 import (
-	"github.com/tidwall/tile38/pkg/geojson/geohash"
+	"github.com/quesurifn/tile38/pkg/geojson/geohash"
 )
 
 // MultiPolygon is a geojson object with the type "MultiPolygon"

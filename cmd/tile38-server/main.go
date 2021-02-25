@@ -19,10 +19,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/tidwall/tile38/pkg/controller"
-	"github.com/tidwall/tile38/pkg/core"
-	"github.com/tidwall/tile38/pkg/hservice"
-	"github.com/tidwall/tile38/pkg/log"
+	"github.com/quesurifn/tile38/pkg/controller"
+	"github.com/quesurifn/tile38/pkg/core"
+	"github.com/quesurifn/tile38/pkg/hservice"
+	"github.com/quesurifn/tile38/pkg/log"
 )
 
 var (

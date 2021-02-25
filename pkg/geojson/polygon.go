@@ -1,6 +1,6 @@
 package geojson
 
-import "github.com/tidwall/tile38/pkg/geojson/geohash"
+import "github.com/quesurifn/tile38/pkg/geojson/geohash"
 
 // Polygon is a geojson object with the type "Polygon"
 type Polygon struct {

@@ -20,7 +20,7 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 	"github.com/tidwall/gjson"
-	"github.com/tidwall/tile38/controller"
+	"github.com/quesurifn/tile38/controller"
 )
 
 const tile38Port = 9191
@@ -179,7 +179,7 @@ func waitForServers(cb func()) {
 
 func downloadAOF() {
 	log.Println("downloading aof")
-	resp, err := http.Get("https://github.com/tidwall/tile38/files/675225/appendonly.aof.zip")
+	resp, err := http.Get("https://github.com/quesurifn/tile38/files/675225/appendonly.aof.zip")
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -7,8 +7,8 @@ import (
 	"unsafe"
 
 	"github.com/tidwall/gjson"
-	"github.com/tidwall/tile38/pkg/geojson/geo"
-	"github.com/tidwall/tile38/pkg/geojson/poly"
+	"github.com/quesurifn/tile38/pkg/geojson/geo"
+	"github.com/quesurifn/tile38/pkg/geojson/poly"
 )
 
 const sizeofPosition = 24 // (X,Y,Z) * 8

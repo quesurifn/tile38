@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/tidwall/resp"
-	"github.com/tidwall/tile38/pkg/geojson"
-	"github.com/tidwall/tile38/pkg/glob"
-	"github.com/tidwall/tile38/pkg/server"
+	"github.com/quesurifn/tile38/pkg/geojson"
+	"github.com/quesurifn/tile38/pkg/glob"
+	"github.com/quesurifn/tile38/pkg/server"
 )
 
 func (c *Controller) cmdScanArgs(vs []resp.Value) (s liveFenceSwitches, err error) {

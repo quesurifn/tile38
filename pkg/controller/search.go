@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/tidwall/resp"
-	"github.com/tidwall/tile38/pkg/bing"
-	"github.com/tidwall/tile38/pkg/geojson"
-	"github.com/tidwall/tile38/pkg/geojson/geohash"
-	"github.com/tidwall/tile38/pkg/glob"
-	"github.com/tidwall/tile38/pkg/server"
+	"github.com/quesurifn/tile38/pkg/bing"
+	"github.com/quesurifn/tile38/pkg/geojson"
+	"github.com/quesurifn/tile38/pkg/geojson/geohash"
+	"github.com/quesurifn/tile38/pkg/glob"
+	"github.com/quesurifn/tile38/pkg/server"
 )
 
 type liveFenceSwitches struct {

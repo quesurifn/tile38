@@ -1,7 +1,7 @@
 package index
 
 import (
-	rtree "github.com/tidwall/tile38/pkg/index/rtree"
+	rtree "github.com/quesurifn/tile38/pkg/index/rtree"
 )
 
 // Index is a geospatial index

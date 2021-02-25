@@ -1,7 +1,7 @@
 package geojson
 
 import (
-	"github.com/tidwall/tile38/pkg/geojson/geo"
+	"github.com/quesurifn/tile38/pkg/geojson/geo"
 )
 
 func SegmentIntersectsCircle(start, end, center Position, meters float64) bool {

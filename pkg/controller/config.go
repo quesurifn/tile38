@@ -12,8 +12,8 @@ import (
 
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/resp"
-	"github.com/tidwall/tile38/pkg/glob"
-	"github.com/tidwall/tile38/pkg/server"
+	"github.com/quesurifn/tile38/pkg/glob"
+	"github.com/quesurifn/tile38/pkg/server"
 )
 
 const (

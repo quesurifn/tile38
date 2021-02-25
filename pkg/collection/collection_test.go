@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tidwall/tile38/pkg/geojson"
+	"github.com/quesurifn/tile38/pkg/geojson"
 )
 
 func TestCollection(t *testing.T) {

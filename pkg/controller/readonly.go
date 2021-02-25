@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/tidwall/resp"
-	"github.com/tidwall/tile38/pkg/log"
-	"github.com/tidwall/tile38/pkg/server"
+	"github.com/quesurifn/tile38/pkg/log"
+	"github.com/quesurifn/tile38/pkg/server"
 )
 
 func (c *Controller) cmdReadOnly(msg *server.Message) (res resp.Value, err error) {

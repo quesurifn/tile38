@@ -1,8 +1,8 @@
 package geojson
 
 import (
-	"github.com/tidwall/tile38/pkg/geojson/geohash"
-	"github.com/tidwall/tile38/pkg/geojson/poly"
+	"github.com/quesurifn/tile38/pkg/geojson/geohash"
+	"github.com/quesurifn/tile38/pkg/geojson/poly"
 )
 
 // MultiPoint is a geojson object with the type "MultiPoint"

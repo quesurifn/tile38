@@ -4,8 +4,8 @@ import (
 	"math"
 
 	"github.com/tidwall/btree"
-	"github.com/tidwall/tile38/pkg/geojson"
-	"github.com/tidwall/tile38/pkg/index"
+	"github.com/quesurifn/tile38/pkg/geojson"
+	"github.com/quesurifn/tile38/pkg/index"
 )
 
 const (

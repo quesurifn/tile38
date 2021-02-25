@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/tidwall/resp"
-	"github.com/tidwall/tile38/pkg/core"
-	"github.com/tidwall/tile38/pkg/log"
+	"github.com/quesurifn/tile38/pkg/core"
+	"github.com/quesurifn/tile38/pkg/log"
 )
 
 // This phrase is copied nearly verbatim from Redis.

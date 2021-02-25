@@ -1,9 +1,9 @@
 package geojson
 
 import (
-	"github.com/tidwall/tile38/pkg/geojson/geo"
-	"github.com/tidwall/tile38/pkg/geojson/geohash"
-	"github.com/tidwall/tile38/pkg/geojson/poly"
+	"github.com/quesurifn/tile38/pkg/geojson/geo"
+	"github.com/quesurifn/tile38/pkg/geojson/geohash"
+	"github.com/quesurifn/tile38/pkg/geojson/poly"
 )
 
 // Point is a geojson object with the type "Point"

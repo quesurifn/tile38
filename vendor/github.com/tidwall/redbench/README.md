@@ -8,7 +8,7 @@ the same inputs and outputs as the
 
 The purpose of this library is to provide benchmarking for 
 [Redcon](https://github.com/tidwall/redcon) compatible servers such as
-[Tile38](https://github.com/tidwall/tile38), but also works well for Redis
+[Tile38](https://github.com/quesurifn/tile38), but also works well for Redis
 operations that are not covered by the `redis-benchmark` tool such as the 
 `GEO*` commands, custom lua scripts, or [Redis Modules](http://antirez.com/news/106).
 
@@ -72,7 +72,7 @@ Which is similar to executing:
 $ redis-benchmark -t PING,SET,GET
 ```
 
-For a more complete example, check out [tile38-benchmark](https://github.com/tidwall/tile38/blob/master/cmd/tile38-benchmark/main.go) from the [Tile38](https://github.com/tidwall/tile38) project.
+For a more complete example, check out [tile38-benchmark](https://github.com/quesurifn/tile38/blob/master/cmd/tile38-benchmark/main.go) from the [Tile38](https://github.com/quesurifn/tile38) project.
 
 ### Custom Options
 

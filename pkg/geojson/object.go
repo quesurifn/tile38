@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/tidwall/gjson"
-	"github.com/tidwall/tile38/pkg/geojson/poly"
+	"github.com/quesurifn/tile38/pkg/geojson/poly"
 )
 
 const (

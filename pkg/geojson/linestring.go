@@ -1,6 +1,6 @@
 package geojson
 
-import "github.com/tidwall/tile38/pkg/geojson/geohash"
+import "github.com/quesurifn/tile38/pkg/geojson/geohash"
 
 // LineString is a geojson object with the type "LineString"
 type LineString struct {

@@ -10,9 +10,9 @@ import (
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/resp"
 	"github.com/tidwall/sjson"
-	"github.com/tidwall/tile38/pkg/collection"
-	"github.com/tidwall/tile38/pkg/geojson"
-	"github.com/tidwall/tile38/pkg/server"
+	"github.com/quesurifn/tile38/pkg/collection"
+	"github.com/quesurifn/tile38/pkg/geojson"
+	"github.com/quesurifn/tile38/pkg/server"
 )
 
 func appendJSONString(b []byte, s string) []byte {

@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/tidwall/gjson"
-	"github.com/tidwall/tile38/pkg/geojson/poly"
+	"github.com/quesurifn/tile38/pkg/geojson/poly"
 )
 
 // BBox is a bounding box

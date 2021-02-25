@@ -8,13 +8,13 @@ VERSION=1.12.2
 PROTECTED_MODE="no"
 
 # Hardcode some values to the core package
-LDFLAGS="$LDFLAGS -X github.com/tidwall/tile38/pkg/core.Version=${VERSION}"
+LDFLAGS="$LDFLAGS -X github.com/quesurifn/tile38/pkg/core.Version=${VERSION}"
 if [ -d ".git" ]; then
-	LDFLAGS="$LDFLAGS -X github.com/tidwall/tile38/pkg/core.GitSHA=$(git rev-parse --short HEAD)"
+	LDFLAGS="$LDFLAGS -X github.com/quesurifn/tile38/pkg/core.GitSHA=$(git rev-parse --short HEAD)"
 fi
-LDFLAGS="$LDFLAGS -X github.com/tidwall/tile38/pkg/core.BuildTime=$(date +%FT%T%z)"
+LDFLAGS="$LDFLAGS -X github.com/quesurifn/tile38/pkg/core.BuildTime=$(date +%FT%T%z)"
 if [ "$PROTECTED_MODE" == "no" ]; then
-	LDFLAGS="$LDFLAGS -X github.com/tidwall/tile38/pkg/core.ProtectedMode=no"
+	LDFLAGS="$LDFLAGS -X github.com/quesurifn/tile38/pkg/core.ProtectedMode=no"
 fi
 
 if [ "$1" == "update-version" ]; then
@@ -156,9 +156,9 @@ trap rmtemp EXIT
 if [ "$NOLINK" != "1" ]; then
     # symlink root to isolated directory
 	mkdir -p "$TMP/go/src/github.com/tidwall"
-    ln -s $OD "$TMP/go/src/github.com/tidwall/tile38"
+    ln -s $OD "$TMP/go/src/github.com/quesurifn/tile38"
     export GOPATH="$TMP/go"
-	cd "$TMP/go/src/github.com/tidwall/tile38"
+	cd "$TMP/go/src/github.com/quesurifn/tile38"
 fi
 
 # generate the core package
